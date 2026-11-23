@@ -1,1 +1,1 @@
-Client CAFE Site
+Cool website bro.  ( ͡° ͜ʖ ͡°)
