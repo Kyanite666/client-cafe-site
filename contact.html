@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!-- KangaCafe starter template.
+     Copy this file to create menu.html, about.html and contact.html. -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Change the title on each page -->
+  <title>Contact | KangaCafe</title>
+
+  <!-- Links to the shared stylesheet. Keep this on every page. -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Header: insert the logo here and link it to the Home page.
+       Keep on every page. -->
+  <header>
+    <a href="index.html">
+    <img src="images/kanga-cafe-logo.png" alt="KangaCafe Logo" width="200" height="200">
+    </a>
+  </header>
+
+  <!-- Navigation: replace each # with the correct page link.
+       Move class="active" to the link for the current page. -->
+  <nav>
+    <ul>
+      <li><a href="/kangacafe/index.html">Home</a></li>
+      <li><a href="/kangacafe/menu.html">Menu</a></li>
+      <li><a href="/kangacafe/about_us.html">About Us</a></li>
+      <li><a href="/kangacafe/contact.html" class="active">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main content: replace with this page's content from the client's email.
+       Images go in the images folder. -->
+  <main>
+    <section>
+      <h1>Contact Us</h1>
+      <p>Feel free to contact us</p>
+        <form action="#">
+          <div>
+            <label for="your-name">Name</label>
+            <input type="text" id="your-name" name="your-name" required>
+          </div>
+
+          <div>
+            <label for="login-email">Email</label>
+            <input type="email" id="login-email" name="email" required>
+          </div>
+
+              <label for="message">Message</label>
+          <div>
+              <textarea id="message" name="message" rows="5"></textarea> 
+          </div>
+          <button type="Submit">Submit</button>
+        </form>
+    </section>
+  </main>
+
+  <!-- Footer: add the footer text from the client's email. Keep on every page. -->
+  <footer>
+    <p>&copy; 2026 KangaCafe</p>
+  </footer>
+
+</body>
+</html>
